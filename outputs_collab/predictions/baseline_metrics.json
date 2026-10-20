@@ -1,0 +1,12 @@
+{
+  "first_three_words": {
+    "exact_match": 50.61062915859513,
+    "f1": 53.07461587746809,
+    "answerability_accuracy": 100.0
+  },
+  "lexical_overlap_sentence": {
+    "exact_match": 50.22319548555546,
+    "f1": 59.96381471863073,
+    "answerability_accuracy": 100.0
+  }
+}

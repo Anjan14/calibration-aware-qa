@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+.env
+.env.local
+
+# Training / eval artifacts (large or regenerable)
+outputs/checkpoints/
+outputs/logs/
+outputs/plots/
+outputs/predictions/
+*.pt
+*.bin
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Optional: local SQuAD dumps (uncomment if you copy JSON into the repo)
+# data/raw/*.json
+# data/processed/*

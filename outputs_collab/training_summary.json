@@ -1,0 +1,96 @@
+{
+  "dataset_config": {
+    "dataset_name": "squad_v2",
+    "use_hf_dataset": true,
+    "train_file": null,
+    "validation_file": null,
+    "cache_dir": null,
+    "max_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "padding": "max_length",
+    "truncation": "only_second"
+  },
+  "model_config": {
+    "model_name": "bert-base-uncased",
+    "lambda_answerability": 0.5
+  },
+  "training_config": {
+    "output_dir": "outputs",
+    "seed": 42,
+    "learning_rate": 3e-05,
+    "train_batch_size": 8,
+    "eval_batch_size": 16,
+    "epochs": 3,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_grad_norm": 1.0,
+    "num_workers": 0,
+    "device": "cuda",
+    "threshold_min": -10.0,
+    "threshold_max": 10.0,
+    "threshold_steps": 41
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 3.261314348639433,
+      "raw_metrics": {
+        "exact_match": 71.80998905078751,
+        "f1": 74.54794672672763,
+        "answerability_accuracy": 77.97523793481007
+      },
+      "calibrated_metrics": {
+        "exact_match": 71.26252842584015,
+        "f1": 74.53609485010591,
+        "answerability_accuracy": 79.06173671355175
+      },
+      "calibration_metrics": {
+        "ece_answerability": 0.07458200152904335,
+        "brier_answerability": 0.15662399398399154,
+        "aurc_risk_coverage_em": 0.31368608257459446
+      },
+      "best_threshold": 0.5
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.6739190189865643,
+      "raw_metrics": {
+        "exact_match": 72.91333277183526,
+        "f1": 75.99240523601198,
+        "answerability_accuracy": 80.03032089615093
+      },
+      "calibrated_metrics": {
+        "exact_match": 73.85664954097533,
+        "f1": 76.86480847661711,
+        "answerability_accuracy": 80.61989387686347
+      },
+      "calibration_metrics": {
+        "ece_answerability": 0.12261250397786652,
+        "brier_answerability": 0.16178640877800907,
+        "aurc_risk_coverage_em": 0.29177315980630875
+      },
+      "best_threshold": -3.5
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.0166983882465717,
+      "raw_metrics": {
+        "exact_match": 72.61854628147898,
+        "f1": 76.04539069473138,
+        "answerability_accuracy": 80.21561526151773
+      },
+      "calibrated_metrics": {
+        "exact_match": 73.77242482944496,
+        "f1": 77.01941579686594,
+        "answerability_accuracy": 80.7883432999242
+      },
+      "calibration_metrics": {
+        "ece_answerability": 0.16871987376865327,
+        "brier_answerability": 0.18058417853228995,
+        "aurc_risk_coverage_em": 0.2905231506518551
+      },
+      "best_threshold": -3.0
+    }
+  ]
+}

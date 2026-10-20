@@ -1,0 +1,166 @@
+[
+  {
+    "threshold": -10.0,
+    "answerability_accuracy": 0.7087509475280047
+  },
+  {
+    "threshold": -9.5,
+    "answerability_accuracy": 0.7215531036806199
+  },
+  {
+    "threshold": -9.0,
+    "answerability_accuracy": 0.73317611387181
+  },
+  {
+    "threshold": -8.5,
+    "answerability_accuracy": 0.742693506274741
+  },
+  {
+    "threshold": -8.0,
+    "answerability_accuracy": 0.7506106291585951
+  },
+  {
+    "threshold": -7.5,
+    "answerability_accuracy": 0.7566748083887813
+  },
+  {
+    "threshold": -7.0,
+    "answerability_accuracy": 0.7605491451191779
+  },
+  {
+    "threshold": -6.5,
+    "answerability_accuracy": 0.7652657289648783
+  },
+  {
+    "threshold": -6.0,
+    "answerability_accuracy": 0.7698980880990483
+  },
+  {
+    "threshold": -5.5,
+    "answerability_accuracy": 0.773098627137202
+  },
+  {
+    "threshold": -5.0,
+    "answerability_accuracy": 0.7747831213678094
+  },
+  {
+    "threshold": -4.5,
+    "answerability_accuracy": 0.7788259075212668
+  },
+  {
+    "threshold": -4.0,
+    "answerability_accuracy": 0.7800892781942221
+  },
+  {
+    "threshold": -3.5,
+    "answerability_accuracy": 0.7824475701170723
+  },
+  {
+    "threshold": -3.0,
+    "answerability_accuracy": 0.7843005137707403
+  },
+  {
+    "threshold": -2.5,
+    "answerability_accuracy": 0.7862376821359387
+  },
+  {
+    "threshold": -2.0,
+    "answerability_accuracy": 0.7870799292512423
+  },
+  {
+    "threshold": -1.5,
+    "answerability_accuracy": 0.7887644234818496
+  },
+  {
+    "threshold": -1.0,
+    "answerability_accuracy": 0.7895224458856228
+  },
+  {
+    "threshold": -0.5,
+    "answerability_accuracy": 0.788174850501137
+  },
+  {
+    "threshold": 0.0,
+    "answerability_accuracy": 0.7895224458856228
+  },
+  {
+    "threshold": 0.5,
+    "answerability_accuracy": 0.7906173671355176
+  },
+  {
+    "threshold": 1.0,
+    "answerability_accuracy": 0.7883432999241977
+  },
+  {
+    "threshold": 1.5,
+    "answerability_accuracy": 0.7876695022319549
+  },
+  {
+    "threshold": 2.0,
+    "answerability_accuracy": 0.7872483786743031
+  },
+  {
+    "threshold": 2.5,
+    "answerability_accuracy": 0.7856481091552261
+  },
+  {
+    "threshold": 3.0,
+    "answerability_accuracy": 0.7837109407900278
+  },
+  {
+    "threshold": 3.5,
+    "answerability_accuracy": 0.7827002442516634
+  },
+  {
+    "threshold": 4.0,
+    "answerability_accuracy": 0.7813526488671776
+  },
+  {
+    "threshold": 4.5,
+    "answerability_accuracy": 0.7790785816558579
+  },
+  {
+    "threshold": 5.0,
+    "answerability_accuracy": 0.7768887391560684
+  },
+  {
+    "threshold": 5.5,
+    "answerability_accuracy": 0.7747831213678094
+  },
+  {
+    "threshold": 6.0,
+    "answerability_accuracy": 0.7711614587720037
+  },
+  {
+    "threshold": 6.5,
+    "answerability_accuracy": 0.7670344479070159
+  },
+  {
+    "threshold": 7.0,
+    "answerability_accuracy": 0.7635812347342711
+  },
+  {
+    "threshold": 7.5,
+    "answerability_accuracy": 0.7602964709845869
+  },
+  {
+    "threshold": 8.0,
+    "answerability_accuracy": 0.7560852354080687
+  },
+  {
+    "threshold": 8.5,
+    "answerability_accuracy": 0.7519582245430809
+  },
+  {
+    "threshold": 9.0,
+    "answerability_accuracy": 0.7451360229091215
+  },
+  {
+    "threshold": 9.5,
+    "answerability_accuracy": 0.7397456413711783
+  },
+  {
+    "threshold": 10.0,
+    "answerability_accuracy": 0.7330076644487492
+  }
+]
