@@ -1,5 +1,3 @@
-"""CLI entry point for evaluating a trained checkpoint."""
-
 from __future__ import annotations
 
 import argparse
@@ -55,10 +53,6 @@ def _refs(examples):
 
 
 def main() -> None:
-    """
-    Example:
-    python run_eval.py --checkpoint outputs/checkpoints/epoch_3 --output-json outputs/final_eval.json
-    """
     args = parse_args()
     use_hf = not (args.train_file and args.validation_file)
     dcfg = DatasetConfig(
