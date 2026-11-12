@@ -1,10 +1,3 @@
-"""Generate slide-ready plots from outputs_collab artifacts.
-
-Usage:
-    python generate_presentation_plots.py
-    python generate_presentation_plots.py --outputs-dir outputs_collab --save-dir outputs_collab/presentation_plots
-"""
-
 from __future__ import annotations
 
 import argparse
