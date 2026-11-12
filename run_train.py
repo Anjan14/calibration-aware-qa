@@ -1,5 +1,3 @@
-"""CLI entry point for training calibration-aware extractive QA."""
-
 from __future__ import annotations
 
 import argparse
@@ -23,13 +21,6 @@ def parse_args() -> argparse.Namespace:
 
 
 def main() -> None:
-    """
-    Usage examples:
-    - Hosted SQuAD2.0:
-      python run_train.py --output-dir outputs
-    - Local files:
-      python run_train.py --train-file /path/train-v2.0.json --validation-file /path/dev-v2.0.json
-    """
     args = parse_args()
     use_hf = not (args.train_file and args.validation_file)
     dataset_cfg = DatasetConfig(
