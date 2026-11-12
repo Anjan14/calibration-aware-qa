@@ -1,5 +1,3 @@
-"""CLI: multi-seed training runs and aggregated summary for publication."""
-
 from __future__ import annotations
 
 import argparse
